@@ -29,15 +29,15 @@ class Pasta {
         this.calories=calories
     }
 
-    fun getNom(pasta: Pasta):String{
+    fun getNom():String{
         return this.nom
     }
 
-    fun getPreu(pasta: Pasta):Float{
+    fun getPreu():Float{
         return this.preu
     }
 
-    fun getPes(pasta: Pasta):Float{
+    fun getPes():Float{
         return this.pes
     }
 

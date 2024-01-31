@@ -19,15 +19,15 @@ class Begudes {
         this.preu=preu
     }
 
-    fun getNom(beguda:Begudes):String{
+    fun getNom():String{
         return this.nom
     }
 
-    fun getPreu(beguda: Begudes):Float{
+    fun getPreu():Float{
         return this.preu
     }
 
-    fun getSucre(beguda: Begudes):String{
+    fun getSucre():String{
         if(this.conteSucre) return "conte sucre"
         return "no conte sucre"
     }
